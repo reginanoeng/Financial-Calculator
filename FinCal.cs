@@ -29,7 +29,7 @@ namespace Financial_Calculator
 
             option = ReadInt("Welcome to the virtual financial calculator. Please enter the option's number to continue.\n1. Predict amount after certain years\n2. Create a monthly budget.");
             
-            if (option > 2)     // how to set conditions for any non-numeric input?
+            if (option > 2)
             {
                 WriteLine("Sorry, {0} is not an option!" , option);
             }
